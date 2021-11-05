@@ -1,0 +1,20 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Xiaoluo Jiao"
+  right:
+    - text: "Background"
+      href: background.html
+    - text: "Plotly"
+      href: about.html
+    - text: "Dashboard"
+      href: about.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<xj2278@cumc.columbia.edu>
+    - icon: fa-github fa-lg
+      href: http://github.com/lorrainejiao/
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/xiaoluojiao/
+output:
+  html_document:
+    theme: cosmo
