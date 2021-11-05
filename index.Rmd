@@ -7,6 +7,8 @@ output:
     theme: cosmo
 ---
 
-# This is Jeff's awe website
-
+# Hello
+I am Xiaoluo Jiao. \
+I recently graduated from UC Davis and have done my major in Biological Sciences. I am currently pursuing a Master's degree in Biostatistics at Columbia University.
+\
 ![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)

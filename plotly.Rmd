@@ -1,0 +1,68 @@
+---
+title: "Plotly"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, message = FALSE}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+```{r, message = FALSE}
+weather_df = 
+  rnoaa::meteo_pull_monitors(
+    c("USW00094728", "USC00519397", "USS0023B17S"),
+    var = c("prcp", "snow", "snwd", "tmin", "tmax"), 
+    date_min = "2017-01-01",
+    date_max = "2017-12-31") %>%
+  mutate(
+    name = recode(
+      id, 
+      USW00094728 = "CentralPark_NY", 
+      USC00519397 = "Waikiki_HA",
+      USS0023B17S = "Waterhole_WA"),
+    tmin = tmin / 10,
+    tmax = tmax / 10) %>%
+  select(name, id, everything())
+```
+
+# Scatterplot
+
+```{r}
+weather_df %>% 
+  mutate(
+    text_label = str_c("Date: ", date)
+  ) %>% 
+  plot_ly(
+    x = ~tmin, y = ~tmax, type = "scatter", mode = "markers", 
+    color = ~name, alpha = .4, text = ~text_label, colors = "viridis"
+  )%>% 
+  layout(title = "Relationship between Maximum and Minimum Temperature", xaxis = list(title = "Minimum Temperature"), yaxis = list(title = "Maximum Temperature"))
+```
+
+# Boxplot
+
+```{r}
+weather_df %>% 
+  mutate(
+    name = fct_reorder(name, tmax)
+  ) %>% 
+  plot_ly(
+    y = ~tmax, color = ~name, type = "box", 
+    colors = "viridis") %>% 
+  layout(title = "Distribution of Maximum Temperature", xaxis = list(title = "Weather station"), yaxis = list(title = "Maximum Temperature"))
+```
+
+# Bar chart 
+
+```{r}
+weather_df %>% 
+  filter(prcp != 0) %>% 
+  plot_ly(x = ~prcp, color = ~name, type = "histogram", colors = "viridis")%>% 
+  layout(title = "Histogram of Precipitation", xaxis = list(title = "Precipitation"), yaxis = list(title = "Frequency"))
+```
+
