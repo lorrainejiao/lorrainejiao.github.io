@@ -9,6 +9,13 @@ output:
 
 # Hello
 I am Xiaoluo Jiao. \
-I recently graduated from UC Davis and have done my major in Biological Sciences. I am currently pursuing a Master's degree in Biostatistics at Columbia University.
+I recently graduated from UC Davis and have done my major in Biological Sciences. \
+I am currently pursuing a Master's degree in Biostatistics at Columbia University.
 \
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+
+<img src="./IMG_6546.JPG" style="width: 80%">
+
+# Resume
+
+If you want to learn more about me, you can download my resume <a href="./CV_XiaoluoJiao.pdf" target="blank">here</a>, 
+OR visit the [Academic Background](background.html) page here in my personal website. 

@@ -2,8 +2,46 @@
 title: "Academic Background"
 ---
 
-### About this site
+### EDUCATION
+**Columbia University** \
+_Master of Science in Biostatistics_ \
+Sep.2021 - present \
 
-Sometimes you need to say a bit about the site -- how it was made, where it's hosted, where the source code can be found. 
+**University of California** \
+_Bachelor of Science in Biological Sciences, Minor in Statistics_ \
+Sep.2016 - Mar.2021 \
+GPA: 3.75/4.00 \
+Dean’s Honors List: Fall 2017, Fall 2018, Fall 2019, Winter 2020, Spring 2020 \
 
-If this is for a project or analysis, I recommend giving some details about the R package versions that you used to create the content.
+### WORK & RESEARCH EXPERIENCE 
+**Research Assistant, Investigation on the Zygotic Transition & Synthetic Apomixis in Rice** \
+_Sundaresan Lab, Department of Plant Biology, UC Davis_ \
+_Sep.2020 - Mar.2021_ \
+• Responsible for experimental data analysis, data cleaning, and data management using R \
+• Performed analyses of correlation & regression, one-way ANOVA, polynomial curve fitting, randomized block design, nested design, and multifactorial design \
+• Delivered weekly reports to the supervisor effectively \
+
+**Research Assistant, Study on Short Rotation Coppice (SRC) Willow as a Bioenergy Crop** \
+_Taylor Lab, Department of Plant Sciences, UC Davis_ \
+_Sep.2019 – Dec.2019_ \
+• Responsible for system monitoring and maintenance in the greenhouse \
+• Planted and harvested willow samples \
+• Measured and recorded physiological biomass in willows on a weekly basis \
+• Utilized t-test to analyze the significant difference in soil carbon stocks and found significantly lower soil respiration in SRC willow comparing to grassland \
+• Built linear mixed model fitted by climate variables and found photosynthetically active radiation and soil water content affected net ecosystem exchange significantly \
+• Led literature review, team coordination, and presentations, effectively delivered scientific reports to supervisors \
+
+**Research Assistant, Identification of Candidate Genes for Phytonutrient Traits of Watercress Davis, California**  \
+_Taylor Lab, Department of Plant Sciences, UC Davis_ \
+_June.2019 – Dec.2019_ \
+• Created datasets of sorted and labeled watercress samples in Excel which provided an efficient reference for upcoming experimental analysis \
+• Conducted data visualization, image processing, and image analysis of watercress tissue samples in ImageJ \
+• Prepared the watercress samples for further analysis using the cryogenic technique \
+• Organized group meetings with Principal Investigator and coordinator, and assigned tasks for other
+undergraduate interns
+
+### SKILLS
+• **Program**: RStudio, Unix Shell, Microsoft (Word, Excel, Access), and Adobe (InDesign, Photoshop) \
+• **Data and Statistical Analysis**: ANOVA, MANOVA, Univariate and Multivariate Regression Analysis,
+Correlation Analysis, Randomized Block Design, Data Cleaning, Data Mining, and Data Visualization \
+• **Research**: Experimental Design, Independent Research, Scientific Writing, Team Cooperation, Laboratory Skills (DNA extraction)
